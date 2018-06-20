@@ -91,7 +91,6 @@ world = RFWorld()
 lineBreak = os.linesep
 
 if world.inFontLab:
-	from robofab.interface.all.dialogs import SelectFont, SelectGlyph
 	from robofab.objects.objectsFL import CurrentFont, CurrentGlyph, RFont, RGlyph, OpenFont, NewFont, AllFonts
 	lineBreak = "\n"
 elif world.inRoboFont:
